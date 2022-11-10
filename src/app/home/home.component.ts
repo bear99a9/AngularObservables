@@ -50,7 +50,6 @@ export class HomeComponent implements OnInit, OnDestroy {
           alert(error.message);
         },
         complete: () => {
-          alert('Observable has completed');
           console.log('Completed');
         }
       });
